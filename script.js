@@ -8,6 +8,10 @@ var question7 = document.quiz.question7[0];
 var question8 = document.quiz.question8[2];
 var question9 = document.quiz.question9[1];
 
+
+
+
+ 
  
 function onClickValid() {
 	resultat.classList.add("show"); 
@@ -15,13 +19,13 @@ function onClickValid() {
  
 	if ((question1.checked) && (question2.checked) && (question3.checked) && (question4.checked) && (question5.checked) && (question6.checked) && (question7.checked) && (question8.checked) && (question9.checked))
 	{
-		resultat.textContent = " 9/9 ! Bravo, vous avez réussi le quiz avec succès!";
+		resultat.textContent = " 9/9 ! 👍 BRAVO 👏 : vous avez réussi le quiz avec succès 🤩 ";
        
 	}
 	else 
 	{	
  
-		resultat.textContent = "Dommage, il y a encore quelques mauvaises réponses. Réessaie !";
+		resultat.textContent = " Dommage 😪 : il y a encore quelques mauvaises réponses 🤔";
 	}
 }
  

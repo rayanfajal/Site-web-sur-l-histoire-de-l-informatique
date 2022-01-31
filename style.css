@@ -1,0 +1,78 @@
+body {background-color:black;
+   color:white}
+
+
+form span {  
+	text-decoration: line-through;
+}
+ 
+.centrage{text-align:center;
+          color:white}
+
+h1{font-weight:normal;
+   font-size:35px;
+   color:rgb(175,0,0)}
+
+h2{color:navy;
+   font-size:25px}
+
+h3{color:whitesmoke;
+   font-size:15px}
+
+h4{font-weight:normal;
+   font-size:25px;
+  color: white;}
+
+
+#resultat {
+	display: none;
+}
+ 
+#resultat.show {
+	display: block;
+	width: 700px;
+	height: 50px;
+	border: 1px solid black;
+	margin-bottom: 100px;
+}
+
+  
+#validation{
+  font-family: sans-serif;
+  font-size: 15px;
+  background-color: rgb(175,0,0);
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+  padding: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+}
+
+#validation:hover{
+background-color: darkblue;}
+
+a {color: white;
+   font-weight: bold;
+   font-size: 25px;
+   width: max-content;
+   padding-right: 14px;
+   text-decoration:none;
+
+}
+
+a:hover{color: darkblue;
+}
+
+nav{position : fixed;
+   right: 0;
+   margin-right: 2%;
+   display : flex;
+}
+
+li{list-style: none;
+}
+
+
+

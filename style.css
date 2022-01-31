@@ -54,10 +54,6 @@ background-color: #38a;}
 
 
 
-main{
-}   
-
-
 a {color: white;
    font-weight: bold;
    font-size: 25px;
@@ -83,10 +79,5 @@ ul{display: flex;
 li{list-style: none;
 }
 
-
-b {color: darkblue;
-  font-size: 16px;/*bold avec 18px*/
-  font-weight: normal;
-}
 
 

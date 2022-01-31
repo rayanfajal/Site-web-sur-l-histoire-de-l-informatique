@@ -13,9 +13,9 @@ function loadView(string $name, array $data): void
     extract($data);
 
     // Chargement de la view demandée
-    require_once PARTIALS_VIEW_PATH . 'header.php';
-    require_once VIEW_PATH . $name . '.php';
-    require_once PARTIALS_VIEW_PATH . 'footer.php';
+    require_once 'header.php';
+    require_once  $name . '.php';
+    require_once 'footer.php';
 
 }
 

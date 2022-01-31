@@ -1,9 +1,12 @@
 body {background-color:black;
-  color:white}
+   color:white}
+
+
 form span {  
 	text-decoration: line-through;
 }
  
+
 .centrage{text-align:center;
           color:white}
 
@@ -15,7 +18,9 @@ h2{color:navy;
    font-size:25px}
 
 h4{font-weight:normal;
-   font-size:25px;}
+   font-size:25px;
+  color: white;}
+
 
 #resultat {
 	display: none;
@@ -30,7 +35,7 @@ h4{font-weight:normal;
 }
 
   
-  #validation{
+#validation{
   font-family: sans-serif;
   font-size: 15px;
   background-color: green;
@@ -40,6 +45,9 @@ h4{font-weight:normal;
   padding: 15px;
   cursor: pointer;
   margin-bottom: 20px;
+
 }
+
+
 #validation:hover{
 background-color: #38a;}
